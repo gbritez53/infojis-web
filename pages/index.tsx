@@ -6,9 +6,12 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <EmojiCard
-        emoji='🤪'
-        name='beaming face with smiling eyes'
-        code='1F601'
+        code='1F600'
+        emoji='😀'
+        name='grinning face'
+        category={'Smileys & Emotion (face-smiling)'}
+        group={'Smileys & Emotion'}
+        subgroup='face-smiling'
       />
     </Layout>
 
