@@ -1,10 +1,17 @@
 import type { NextPage } from 'next'
+import { EmojiCard } from '../components/EmojiCard'
+import { Layout } from '../components/layouts/Layout'
 
 const Home: NextPage = () => {
   return (
-    <h1 className="text-3xl font-bold underline text-red-700">
-      Hello Tailwind!
-    </h1>
+    <Layout>
+      <EmojiCard
+        emoji='🤪'
+        name='beaming face with smiling eyes'
+        code='1F601'
+      />
+    </Layout>
+
   )
 }
 
