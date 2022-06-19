@@ -1,18 +1,13 @@
 import type { NextPage } from 'next'
-import { EmojiCard } from '../components/EmojiCard'
 import { Layout } from '../components/layouts/Layout'
+import { List } from '../components/EmojiList'
+import { emojisData } from '../data/emojis'
 
 const Home: NextPage = () => {
   return (
     <Layout>
-      <EmojiCard
-        code='1F600'
-        emoji='😀'
-        name='grinning face'
-        category={'Smileys & Emotion (face-smiling)'}
-        group={'Smileys & Emotion'}
-        subgroup='face-smiling'
-      />
+      <h1 className='text-2xl md:text-5xl font-bold text-gray-700 tracking-wide text-center py-8' >Welcome to Infoji!</h1>
+      <List emojis={emojisData.slice(0, 100)} />
     </Layout>
 
   )

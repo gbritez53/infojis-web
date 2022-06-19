@@ -6,3 +6,7 @@ export interface EmojiCardProps {
     group: string,
     subgroup: string
 }
+
+export interface EmojiListProps {
+    emojis: EmojiCardProps[]
+}

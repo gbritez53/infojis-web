@@ -1,4 +1,4 @@
-const emojisData = [
+export const emojisData = [
     {
         code: '1F600',
         emoji: '😀',
@@ -36712,5 +36712,3 @@ const emojisData = [
         subgroup: 'subdivision-flag',
     },
 ];
-
-export default emojisData;

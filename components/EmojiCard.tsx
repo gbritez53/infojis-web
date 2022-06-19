@@ -3,7 +3,7 @@ import { EmojiCardProps } from "../interfaces"
 
 const styles = {
     cardWrapper: `bg-[#F7F3F6] p-2 rounded-xl shadow-md flex flex-col items-center`,
-    cardEmoji: `text-4xl md:text-5xl mb-2`,
+    cardEmoji: `text-3xl md:text-5xl mb-2`,
     cardText: `font-bold capitalize text-gray-700`,
     cardBtn: `text-blue-500 hover:text-blue-600 text-sm pt-3`
 }
