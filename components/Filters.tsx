@@ -46,9 +46,6 @@ interface Props {
     setFilteredEmoji: Dispatch<SetStateAction<EmojiCardProps[]>>
 }
 
-console.log(filters);
-
-
 export const Filters: FC<Props> = ({ setFilteredEmoji }) => {
     const handleFilterByCategory = (category: string) => {
         setFilteredEmoji(
